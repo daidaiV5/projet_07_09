@@ -1,0 +1,16 @@
+name: court_env_GSA
+channels :
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - pip
+    - pip:
+        - pandas
+        - matplotlib
+        - seaborn
+        - numpy
+        - MDAnalysis	
+        - pbxplore
+        - collection
+        - math
